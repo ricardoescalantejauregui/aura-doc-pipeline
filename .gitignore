@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.envrc
+.cache/
+dist/
+build/
+.data/
+data/
+!.gitkeep
+.pytest_cache/
+.bat

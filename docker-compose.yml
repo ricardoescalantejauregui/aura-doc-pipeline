@@ -1,0 +1,10 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app:ro
+      - ./data:/app/data
