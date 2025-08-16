@@ -9,14 +9,14 @@ docker compose up --build
 
 ```
 
-## recontruir y levantar En Windows
+## recontruir y levantar en Windows
 ```bash
 docker compose down
 docker compose build
 docker compose up
 ```
 
-## recontruir y levantar en Ubuntu
+## reconstruir y levantar en Ubuntu
 ```bash
 docker-compose down
 docker-compose build
